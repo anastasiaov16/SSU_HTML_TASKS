@@ -8,102 +8,100 @@
 <body>
   <table border="1" cellspacing="0" cellpadding="5" width = "100%" >
   
-<!--Заголовок-->
+<!--Р—Р°РіРѕР»РѕРІРѕРє-->
 <tr> 
-    <th colspan="3" height = "100"><h1>Макет задания по "Основы HTML"</h1>
-    </th>
+    <td colspan="3" height = "100" align="center"><h1>РњР°РєРµС‚ Р·Р°РґР°РЅРёСЏ РїРѕ "РћСЃРЅРѕРІС‹ HTML"</h1>
+    </td>
 </tr>
     
 <tr>
-    <!--Левый столбец-->
+    <!--Left column-->
 <td width = "200" valign="top">
-  <h2>Меню</h2>
-    <p><u>Главная</u></p>
-    <p><u>Продукты</u></p>
-    <p><u>Кафе</u></p>
-    <p><u>Рестораны</u></p>
-    <p><u>Вопросы</u></p>
-    <p><u>Акции</u></p>
+  <h2>РњРµРЅСЋ</h2>
+  <ul style="list-style: none;"> 
+    <li><a href="URL">Р“Р»Р°РІРЅР°СЏ</a></li>
+    <li><a href="URL">РџСЂРѕРґСѓРєС‚С‹</a></li>
+    <li><a href="URL">РљР°С„Рµ</a></li>
+    <li><a href="URL">Р РµСЃС‚РѕСЂР°РЅС‹</a></li>
+    <li><a href="URL">Р’РѕРїСЂРѕСЃС‹</a></li>
+    <li><a href="URL">РђРєС†РёРё</a></li>
+  </ul>
 </td>
   
-  <!--Средний столбец-->
+  <!--Middle column-->
 <td valign="top">
-  <h2 align="center">Основной контент</h2>
-  <img width="128" 
+  <h2 align="center">РћСЃРЅРѕРІРЅРѕР№ РєРѕРЅС‚РµРЅС‚</h2>
+  <img
+       width ="150"
+       height="100"
      alt="Three bogatyrya" 
      title=""
      src="https://caricatura.ru/parad/sichenko/pic/karikatura-tri-bogatyrya_(sergey-sichenko)_8082.jpg"
      align="right"> 
-  
-  <style>
-   P { 
-    text-indent: 1.5em; /* Отступ первой строки */
-    text-align: justify; /* Выравнивание по ширине */
-   }
-  </style>
-  
-  <p> Давно выяснено, что при оценке дизайна и композиции 
-читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, 
-что тот обеспечивает более или менее стандартное заполнение шаблона, 
-а также реальное распределение букв и пробелов в абзацах, 
-которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.. " 
-Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, 
-так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего 
-настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, 
-    некоторые - намеренно (например, юмористические варианты).<sup>1</sup> </p>
+    
+  <p  align = "justify">&nbsp;&nbsp;&nbsp;&nbsp;Р”Р°РІРЅРѕ РІС‹СЏСЃРЅРµРЅРѕ, С‡С‚Рѕ РїСЂРё РѕС†РµРЅРєРµ РґРёР·Р°Р№РЅР° Рё РєРѕРјРїРѕР·РёС†РёРё 
+С‡РёС‚Р°РµРјС‹Р№ С‚РµРєСЃС‚ РјРµС€Р°РµС‚ СЃРѕСЃСЂРµРґРѕС‚РѕС‡РёС‚СЊСЃСЏ. Lorem Ipsum РёСЃРїРѕР»СЊР·СѓСЋС‚ РїРѕС‚РѕРјСѓ, 
+С‡С‚Рѕ С‚РѕС‚ РѕР±РµСЃРїРµС‡РёРІР°РµС‚ Р±РѕР»РµРµ РёР»Рё РјРµРЅРµРµ СЃС‚Р°РЅРґР°СЂС‚РЅРѕРµ Р·Р°РїРѕР»РЅРµРЅРёРµ С€Р°Р±Р»РѕРЅР°, 
+Р° С‚Р°РєР¶Рµ СЂРµР°Р»СЊРЅРѕРµ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРµ Р±СѓРєРІ Рё РїСЂРѕР±РµР»РѕРІ РІ Р°Р±Р·Р°С†Р°С…, 
+РєРѕС‚РѕСЂРѕРµ РЅРµ РїРѕР»СѓС‡Р°РµС‚СЃСЏ РїСЂРё РїСЂРѕСЃС‚РѕР№ РґСѓР±Р»РёРєР°С†РёРё "Р—РґРµСЃСЊ РІР°С€ С‚РµРєСЃС‚.. Р—РґРµСЃСЊ РІР°С€ С‚РµРєСЃС‚.. Р—РґРµСЃСЊ РІР°С€ С‚РµРєСЃС‚.. " 
+РњРЅРѕРіРёРµ РїСЂРѕРіСЂР°РјРјС‹ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РІС‘СЂСЃС‚РєРё Рё СЂРµРґР°РєС‚РѕСЂС‹ HTML РёСЃРїРѕР»СЊР·СѓСЋС‚ Lorem Ipsum РІ РєР°С‡РµСЃС‚РІРµ С‚РµРєСЃС‚Р° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ, 
+С‚Р°Рє С‡С‚Рѕ РїРѕРёСЃРє РїРѕ РєР»СЋС‡РµРІС‹Рј СЃР»РѕРІР°Рј "lorem ipsum" СЃСЂР°Р·Сѓ РїРѕРєР°Р·С‹РІР°РµС‚, РєР°Рє РјРЅРѕРіРѕ РІРµР±-СЃС‚СЂР°РЅРёС† РІСЃС‘ РµС‰С‘ РґРѕР¶РёРґР°СЋС‚СЃСЏ СЃРІРѕРµРіРѕ 
+РЅР°СЃС‚РѕСЏС‰РµРіРѕ СЂРѕР¶РґРµРЅРёСЏ. Р—Р° РїСЂРѕС€РµРґС€РёРµ РіРѕРґС‹ С‚РµРєСЃС‚ Lorem Ipsum РїРѕР»СѓС‡РёР» РјРЅРѕРіРѕ РІРµСЂСЃРёР№. РќРµРєРѕС‚РѕСЂС‹Рµ РІРµСЂСЃРёРё РїРѕСЏРІРёР»РёСЃСЊ РїРѕ РѕС€РёР±РєРµ, 
+    РЅРµРєРѕС‚РѕСЂС‹Рµ - РЅР°РјРµСЂРµРЅРЅРѕ (РЅР°РїСЂРёРјРµСЂ, СЋРјРѕСЂРёСЃС‚РёС‡РµСЃРєРёРµ РІР°СЂРёР°РЅС‚С‹).<sup>1</sup> </p>
   
   
     <ul type="square">
-      <li><i>Курсивный пункт<sup>2</sup></i></li>
-      <li><b>Жирный пункт</b></li>
+      <li><i>РљСѓСЂСЃРёРІРЅС‹Р№ РїСѓРЅРєС‚<sup>2</sup></i></li>
+      <li><b>Р–РёСЂРЅС‹Р№ РїСѓРЅРєС‚</b></li>
     </ul>  
 <table border="1" cellspacing="0" cellpadding="5" width = "100%" >
-    <caption><h3 align = "left">Список товаров в магазине</h3></caption>
+    <caption><h3 align = "left">РЎРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ РІ РјР°РіР°Р·РёРЅРµ</h3></caption>
     
     <tr>
-     <th>Номер</th>
-     <th>Название</th>
-      <th>Цена</th>
+     <th>РќРѕРјРµСЂ</th>
+     <th>РќР°Р·РІР°РЅРёРµ</th>
+      <th>Р¦РµРЅР°</th>
+      </tr>
       
   <tbody>      
-    <tr>  
+    <tr>
      <td align = "center">1</td>
-     <td>Меч</td>
+     <td>РњРµС‡</td>
      <td align = "center">10</td>
     </tr>
         <tr>  
      <td align = "center">2</td>
-     <td>Булава</td>
+     <td>Р‘СѓР»Р°РІР°</td>
      <td align = "center">5</td>
     </tr>
         <tr>  
      <td align = "center">3</td>
-     <td>Верный конь</td>
+     <td>Р’РµСЂРЅС‹Р№ РєРѕРЅСЊ</td>
      <td align = "center">15</td>
-    </tr>
+        </tr>
         
   </tbody>
-    </tr>
+    
 
 </table>
   </td>
 
 
   
-  <!--Правый столбец-->
+  <!--Right column-->
  <td width = "200" valign="top"> 
-<div>
-<label for = "txt">
+  <form>
+    <div>
+<label for = "login">
 Login:</label>
-  <input name="login" type="text" size="25" maxlength="30" value="login" /> <br />
+  <input name="login" type="text" size="25" maxlength="30" placeholder="login"/> <br />
   </div>
 
 <div>
-<label for = "txt">
+<label for = "pd">
 Password:</label>
-<input name="pd" type="password" size="25" maxlength="30" value="******" />
+<input name="pd" type="password" size="25" maxlength="30" placeholder="******" />
   </div>
-  
   <div> <select name="menu" size="1" style = "width:100%" autofocus>
 <option selected="selected" value="first">Admin</option>
 <option value="second">Tester</option>
@@ -111,17 +109,18 @@ Password:</label>
 </select>
   </div>
   
-  <input name="remember" type="checkbox" value="yes" /> Запомни меня <br />
-<input type="submit" name="submit" value="Вход" style = "width:100%" />
+  <input name="remember" type="checkbox" value="yes" /> Р—Р°РїРѕРјРЅРё РјРµРЅСЏ <br />
+<input type="button" name="submit" value="Р’С…РѕРґ" style = "width:100%"/>
+   </form>
 </td>
 
 </tr>
 
   
-  <!--блок с ячейками подвала таблицы-->
+  <!--Р±Р»РѕРє СЃ СЏС‡РµР№РєР°РјРё РїРѕРґРІР°Р»Р° С‚Р°Р±Р»РёС†С‹-->
   <tfoot>
     <tr>
-      <td colspan="3" align="left">&copy 2014 Основы HTML</td>    
+      <td colspan="3" align="left">&copy; 2014 РћСЃРЅРѕРІС‹ HTML</td>    
     </tr>
   </tfoot>
 
