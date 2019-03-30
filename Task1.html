@@ -1,3 +1,4 @@
+    
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -81,29 +82,30 @@
 
       <!--Right column-->
       <td width="200" valign="top">
-        <form>
+        <form method="post" action = "#">
           <div>
             <label for="login">Login:</label>
-            <input id="login" type="text" size="25" maxlength="30" placeholder="login" />
+            <input name = "login" id="login" type="text" size="25" maxlength="30" placeholder="login" />
             <br />
           </div>
 
           <div>
             <label for="pd">Password:</label>
-            <input id="pd" type="password" size="25" maxlength="30" placeholder="******" />
+            <input name = "pd" id="pd" type="password" size="25" maxlength="30" placeholder="******" />
           </div>
 
           <div>
             <select name="menu" size="1" style="width:100%" autofocus>
-              <option selected="selected" value="first">Admin</option>
-              <option value="second">Tester</option>
-              <option value="third">User</option>
+              <option selected="selected" value="Admin">Admin</option>
+              <option value="Tester">Tester</option>
+              <option value="User">User</option>
             </select>
           </div>
+          
 
-          <input name="remember" type="checkbox" value="yes" /> Запомни меня
-          <br />
-          <input type="button" name="submit" value="Вход" style="width:100%" />
+          <input id = "remember" name="remember" type="checkbox" value="yes">
+          <label for = "remember">Запомни меня</label>
+          <input type="submit" style="width:100%" />
         </form>
       </td>
 
